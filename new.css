@@ -1,0 +1,434 @@
+
+
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    background-color: #d3d8e3; /* Change color as needed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow as needed */
+}
+
+/* Styling for the navbar */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000; /* Change color as needed */
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url('C:\Users\Asus\OneDrive\Pictures\WhatsApp Image 2024-01-22 at 14.59.26_168f2881.jpg');
+    
+    background-size: contain;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #010000; /* Change color as needed */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #a3b0be; /* Change color as needed */
+}
+
+/* Styling for the main banner section */
+.bgimage {
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?q=10&h=200'); /* Replace 'path/to/your/image.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items:left;
+    color: #01060a;
+    font-size:80px;
+    font-display:initial;
+    
+}
+
+
+/* Styling for the container */
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #f6e2e2;
+   
+    
+}
+
+/* Styling for the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Styling for the services section */
+#services {
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #aeb4b9; /* Change background color as needed */
+}
+
+/* Styling for the container */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the text center */
+.text-center {
+    text-align: center;
+ 
+}
+
+/* Styling for the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Styling for the columns */
+.col-lg-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the card */
+.card {
+    background-color: #ebcece; /* Change card background color as needed */
+    border: none;
+    border-radius: 8px; /* Adjust border radius as needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust box shadow as needed */
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adjust box shadow on hover as needed */
+}
+
+/* Styling for the services text */
+.servicesText {
+    height: 100%;
+}
+
+/* Styling for the services icon */
+.servicesIcon {
+    font-size: 3rem; /* Adjust icon size as needed */
+    color: #007bff; /* Change icon color as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Styling for the card title */
+.card-title {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+/* Styling for the card text */
+.card-text {
+    font-size: 1rem; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height as needed */
+}
+
+/* Styling for the about section */
+#about {
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+/* Styling for the container */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the text center */
+.text-center {
+    text-align: center;
+}
+
+/* Styling for the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Styling for the columns */
+.col-lg-4 {
+    position: relative;
+    width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-8 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the image */
+.imageAboutPage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adjust border radius as needed */
+}
+
+/* Styling for the paragraph */
+p {
+    font-size: 1rem; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height as needed */
+}
+
+/* Styling for the list */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+
+
+/* Styling for the paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Styling for the list */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for the list items */
+li::before {
+    content: "•";
+    margin-right: 5px;
+    color: #007bff; /* Change color as needed */
+}
+
+/* Styling for the portfolio section */
+#portfolio {
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #9ab6d2; /* Change background color as needed */
+}
+
+/* Styling for the container */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the text center */
+.text-center {
+    text-align: center;
+}
+
+/* Styling for the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Styling for the columns */
+.col-lg-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the card */
+.card {
+    background-color: #ffffff; /* Change card background color as needed */
+    border: none;
+    border-radius: 8px; /* Adjust border radius as needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust box shadow as needed */
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adjust box shadow on hover as needed */
+}
+
+/* Styling for the card image */
+.card-img-top {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+
+/* Styling for the card title */
+.card-title {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+/* Styling for the card text */
+.card-text {
+    font-size: 1rem; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height as needed */
+}
+
+/* Styling for the button */
+.btn {
+    margin-top: 20px; /* Adjust margin as needed */
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff; /* Change button background color as needed */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change button background color on hover as needed */
+}
+
+/* Styling for the contact section */
+#contact {
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #f8f9fa; /* Change background color as needed */
+}
+
+/* Styling for the container */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for the text center */
+.text-center {
+    text-align: center;
+}
+
+/* Styling for the contact content */
+.contactContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling for the form */
+form {
+    width: 100%;
+}
+
+/* Styling for form inputs */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Change border color as needed */
+    border-radius: 5px;
+}
+
+/* Styling for the textarea */
+textarea.form-control {
+    resize: vertical;
+}
+
+/* Styling for the button */
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #28a745; /* Change button background color as needed */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838; /* Change button background color on hover as needed */
+}
+
+/* Styling for the footer section */
+#footer {
+    background-color: #333333; /* Change background color as needed */
+    color: #ffffff; /* Change text color as needed */
+    padding: 40px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+/* Styling for the container */
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Styling for social media icons */
+.social-icons a {
+    color: #ffffff; /* Change icon color as needed */
+    font-size: 1.5rem; /* Adjust icon size as needed */
+    margin-right: 10px; /* Adjust margin between icons as needed */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change icon color on hover as needed */
+}
+
